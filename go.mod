@@ -1,4 +1,4 @@
-module github.com/lornajane/streamdeck-tricks
+module github.com/rf152/streamdeck-tricks
 
 go 1.14
 
