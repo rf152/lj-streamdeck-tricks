@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/hypebeast/go-osc/osc"
-	"github.com/lornajane/streamdeck-tricks/actionhandlers"
+	"github.com/rf152/streamdeck-tricks/actionhandlers"
 	"github.com/magicmonkey/go-streamdeck"
 	buttons "github.com/magicmonkey/go-streamdeck/buttons"
 	sddecorators "github.com/magicmonkey/go-streamdeck/decorators"
