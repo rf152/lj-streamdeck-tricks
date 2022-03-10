@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/lornajane/streamdeck-tricks/addons"
+	"github.com/rf152/streamdeck-tricks/addons"
 	streamdeck "github.com/magicmonkey/go-streamdeck"
 	_ "github.com/magicmonkey/go-streamdeck/devices"
 	"github.com/rs/zerolog"
