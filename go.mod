@@ -1,4 +1,4 @@
-module github.com/rf152/lj-streamdeck-tricks
+module github.com/rf152/streamdeck-tricks
 
 go 1.14
 
