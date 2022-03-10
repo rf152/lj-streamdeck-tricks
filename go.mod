@@ -2,8 +2,6 @@ module github.com/lornajane/streamdeck-tricks
 
 go 1.14
 
-replace github.com/magicmonkey/go-streamdeck => /home/lorna/go/src/github.com/magicmonkey/go-streamdeck
-
 require (
 	github.com/atotto/clipboard v0.1.2
 	github.com/christopher-dG/go-obs-websocket v0.0.0-20200501221211-5c9c018f6fb4
