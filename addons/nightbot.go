@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/atotto/clipboard"
-	"github.com/magicmonkey/go-streamdeck"
-	"github.com/magicmonkey/go-streamdeck/buttons"
+	"github.com/rf152/go-streamdeck"
+	"github.com/rf152/go-streamdeck/buttons"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

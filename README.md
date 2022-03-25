@@ -6,7 +6,7 @@ If you use this repository to improve your streamdeck workflow, you are encourag
 
 ## Fabulous Libraries That Made This Project Possible
 
-* [go-streamdeck](https://github.com/magicmonkey/go-streamdeck) is the key library to drive the streamdeck part of the application.
+* [go-streamdeck](https://github.com/rf152/go-streamdeck) is the key library to drive the streamdeck part of the application.
 * [hypebeast/osc](https://github.com/hypebeast/go-osc) Go library for using Open Sound Control applications - I use mine with [CasterSoundboard](https://github.com/JupiterBroadcasting/CasterSoundboard/) on Ubuntu.
 * [paho.mqtt.golang](https://github.com/eclipse/paho.mqtt.golang) for MQTT integration (with my [LED shelf](https://lornajane.net/posts/2020/neopixel-shelf).
 * [OBS Websockets](https://github.com/christopher-dG/go-obs-websocket) to change scenes and get current state information about the selected scene.

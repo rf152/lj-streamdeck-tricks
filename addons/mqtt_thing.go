@@ -5,8 +5,8 @@ import (
 	"image/color"
 
 	mqtt "github.com/eclipse/paho.mqtt.golang"
-	"github.com/magicmonkey/go-streamdeck"
-	"github.com/magicmonkey/go-streamdeck/buttons"
+	"github.com/rf152/go-streamdeck"
+	"github.com/rf152/go-streamdeck/buttons"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

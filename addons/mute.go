@@ -5,10 +5,10 @@ import (
 	"image/color"
 	"os/exec"
 
-	"github.com/magicmonkey/go-streamdeck"
-	sdactionhandlers "github.com/magicmonkey/go-streamdeck/actionhandlers"
-	"github.com/magicmonkey/go-streamdeck/buttons"
-	sddecorators "github.com/magicmonkey/go-streamdeck/decorators"
+	"github.com/rf152/go-streamdeck"
+	sdactionhandlers "github.com/rf152/go-streamdeck/actionhandlers"
+	"github.com/rf152/go-streamdeck/buttons"
+	sddecorators "github.com/rf152/go-streamdeck/decorators"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

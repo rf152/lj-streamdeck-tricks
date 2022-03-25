@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/magicmonkey/go-streamdeck"
-	buttons "github.com/magicmonkey/go-streamdeck/buttons"
+	"github.com/rf152/go-streamdeck"
+	buttons "github.com/rf152/go-streamdeck/buttons"
 	"github.com/nicklaw5/helix"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

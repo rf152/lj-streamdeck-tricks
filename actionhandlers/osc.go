@@ -4,7 +4,7 @@ import (
 	"strconv"
 
 	"github.com/hypebeast/go-osc/osc"
-	streamdeck "github.com/magicmonkey/go-streamdeck"
+	streamdeck "github.com/rf152/go-streamdeck"
 	"github.com/rs/zerolog/log"
 )
 

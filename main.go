@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/rf152/streamdeck-tricks/addons"
-	streamdeck "github.com/magicmonkey/go-streamdeck"
-	_ "github.com/magicmonkey/go-streamdeck/devices"
+	streamdeck "github.com/rf152/go-streamdeck"
+	_ "github.com/rf152/go-streamdeck/devices"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

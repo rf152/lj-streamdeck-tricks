@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	obsws "github.com/christopher-dG/go-obs-websocket"
-	"github.com/magicmonkey/go-streamdeck"
-	"github.com/magicmonkey/go-streamdeck/buttons"
-	sddecorators "github.com/magicmonkey/go-streamdeck/decorators"
+	"github.com/rf152/go-streamdeck"
+	"github.com/rf152/go-streamdeck/buttons"
+	sddecorators "github.com/rf152/go-streamdeck/decorators"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

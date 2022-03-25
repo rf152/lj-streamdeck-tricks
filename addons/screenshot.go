@@ -3,9 +3,9 @@ package addons
 import (
 	"os/exec"
 
-	"github.com/magicmonkey/go-streamdeck"
-	sdactionhandlers "github.com/magicmonkey/go-streamdeck/actionhandlers"
-	"github.com/magicmonkey/go-streamdeck/buttons"
+	"github.com/rf152/go-streamdeck"
+	sdactionhandlers "github.com/rf152/go-streamdeck/actionhandlers"
+	"github.com/rf152/go-streamdeck/buttons"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

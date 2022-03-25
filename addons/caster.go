@@ -7,9 +7,9 @@ import (
 
 	"github.com/hypebeast/go-osc/osc"
 	"github.com/rf152/streamdeck-tricks/actionhandlers"
-	"github.com/magicmonkey/go-streamdeck"
-	buttons "github.com/magicmonkey/go-streamdeck/buttons"
-	sddecorators "github.com/magicmonkey/go-streamdeck/decorators"
+	"github.com/rf152/go-streamdeck"
+	buttons "github.com/rf152/go-streamdeck/buttons"
+	sddecorators "github.com/rf152/go-streamdeck/decorators"
 	"github.com/rs/zerolog/log"
 )
 
