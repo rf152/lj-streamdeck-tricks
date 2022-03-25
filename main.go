@@ -51,39 +51,39 @@ func main() {
 	obs_addon.Buttons()
 
 	// init MQTT
-	mqtt_addon := addons.MqttThing{SD: sd}
-	mqtt_addon.Init()
-	mqtt_addon.Buttons()
+	// mqtt_addon := addons.MqttThing{SD: sd}
+	// mqtt_addon.Init()
+	// mqtt_addon.Buttons()
 
-	// init Screenshot
-	screenshot_addon := addons.Screenshot{SD: sd}
-	screenshot_addon.Init()
-	screenshot_addon.Buttons()
+	// // init Screenshot
+	// screenshot_addon := addons.Screenshot{SD: sd}
+	// screenshot_addon.Init()
+	// screenshot_addon.Buttons()
 
-	// init WindowManager
-	windowmgmt_addon := addons.WindowMgmt{SD: sd}
-	windowmgmt_addon.Init()
-	windowmgmt_addon.Buttons()
+	// // init WindowManager
+	// windowmgmt_addon := addons.WindowMgmt{SD: sd}
+	// windowmgmt_addon.Init()
+	// windowmgmt_addon.Buttons()
 
-	// set up soundcaster
-	caster_addon := addons.Caster{SD: sd}
-	caster_addon.Init()
-	caster_addon.Buttons()
+	// // set up soundcaster
+	// caster_addon := addons.Caster{SD: sd}
+	// caster_addon.Init()
+	// caster_addon.Buttons()
 
-	// go Twitch API
-	twitch_addon := addons.Twitch{SD: sd}
-	twitch_addon.Init()
-	twitch_addon.Buttons()
+	// // go Twitch API
+	// twitch_addon := addons.Twitch{SD: sd}
+	// twitch_addon.Init()
+	// twitch_addon.Buttons()
 
-	// Nightbot (needs ngrok twitch if refresh has expired)
-	nightbot_addon := addons.Nightbot{SD: sd}
-	nightbot_addon.Init()
-	nightbot_addon.Buttons()
+	// // Nightbot (needs ngrok twitch if refresh has expired)
+	// nightbot_addon := addons.Nightbot{SD: sd}
+	// nightbot_addon.Init()
+	// nightbot_addon.Buttons()
 
-	// Mute/Audio features
-	mute_addon := addons.Mute{SD: sd, Button_id: 31}
-	mute_addon.Init()
-	mute_addon.Buttons()
+	// // Mute/Audio features
+	// mute_addon := addons.Mute{SD: sd, Button_id: 31}
+	// mute_addon.Init()
+	// mute_addon.Buttons()
 
 	go webserver()
 
