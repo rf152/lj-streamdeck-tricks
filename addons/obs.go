@@ -37,18 +37,24 @@ var buttons_obs map[string]*ObsScene // scene name and image name
 
 func (o *Obs) Init() {
 	streaming = false
-	o.ConnectOBS()
-	o.ObsEventHandlers()
+	o.connect()
 }
 
-func (o *Obs) ConnectOBS() {
+func (o *Obs) connect() {
 	log.Debug().Msg("Connecting to OBS...")
 	log.Info().Msgf("%#v\n", viper.Get("obs.host"))
-	o.obs_client = obsws.Client{Host: "localhost", Port: 4444}
+	o.obs_client = obsws.Client{Host: viper.Get("obs.host"), Port: viper.Get("obs.port"), Password: viper.Get("obs.password")}
 	err := o.obs_client.Connect()
 	if err != nil {
 		log.Warn().Err(err).Msg("Cannot connect to OBS")
 	}
+	if (o.connected()) {
+		o.ObsEventHandlers()
+	}
+}
+
+func (o *Obs) connected() {
+	return o.obs_client.Connected() == true
 }
 
 func (o *Obs) ObsEventHandlers() {
